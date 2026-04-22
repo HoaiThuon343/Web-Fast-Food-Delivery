@@ -39,7 +39,7 @@ This README document outlines the steps necessary to install and run the Web Fas
 1. Create several categories and execute the creation. Check the response body for a code 200 to confirm successful creation.
 2. Display data in `dbo.Category` to retrieve the `CategoryId`. Use this ID to create food items.
 
-### Admin and Shipper Creation
+### Admin and Restaurant Creation
 - **Admin Account:**
   1. Register as a customer.
   2. Query `dbo.AspNetRoles` for the Admin role ID.
