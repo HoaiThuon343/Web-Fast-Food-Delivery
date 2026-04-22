@@ -45,9 +45,9 @@ This README document outlines the steps necessary to install and run the Web Fas
   2. Query `dbo.AspNetRoles` for the Admin role ID.
   3. Overwrite the Admin role ID into `dbo.AspNetUserRoles` for the user account created in step 1.
 
-- **Shipper Account:**
+- **Restaurant Account:**
   1. Log in as an Admin.
-  2. Navigate to the Shipper Account Management section to add a new shipper.
+  2. Navigate to the Restaurant Account Management section to add a new Restaurant.
 
 ### Application User Interface
 Here are some views of the application's user interface:
@@ -59,9 +59,7 @@ Here are some views of the application's user interface:
 - **Homepage View:**
 
 
-### Order Processing Flows
-- **Case 1:** When an order's status is Paid and the DeliveryStatus is Processing, the admin can assign a shipper. Once assigned and confirmed by the shipper, the DeliveryStatus changes to Delivered.
-- **Case 2:** If a shipper rejects the order, the status changes to Cancelled.
+
 
 ### Important Notices
 - Ensure the SQL Server connection details are correct.
