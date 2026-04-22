@@ -1,4 +1,4 @@
-# Fast Food Delivery App 
+# Web Fast Food Delivery  
 
 ## Overview
 This README document outlines the steps necessary to install and run the Fast Food Delivery App. It includes instructions for setting up the database, running the application, inserting sample data, and creating user roles.
