@@ -1,0 +1,137 @@
+// .tracking-container {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   padding: 50px 20px;
+//   background-color: #fcfcfc; // Màu nền
+//   min-height: 400px;
+
+//   .tracking-content {
+//     display: flex;
+//     align-items: center;
+//     max-width: 900px;
+//     width: 100%;
+//   }
+
+//   .tracking-icon {
+//     flex: 1;
+//     img {
+//       width: 100%;
+//       max-width: 250px; // Chỉnh kích thước icon
+//       height: auto;
+//     }
+//   }
+
+//   .tracking-form {
+//     flex: 2;
+//     margin-left: 40px;
+
+//     h2 {
+//       font-size: 2.5rem;
+//       color: #333;
+//       margin-bottom: 20px;
+//     }
+//   }
+
+//   .tracking-input {
+//     display: flex;
+    
+//     input {
+//       flex: 1;
+//       padding: 15px 20px;
+//       font-size: 1rem;
+//       border: 1px solid #ddd;
+//       border-radius: 8px 0 0 8px; // Bo góc
+//       outline: none;
+//     }
+
+//     button {
+//       padding: 15px 30px;
+//       font-size: 1rem;
+//       font-weight: bold;
+//       color: white;
+//       background-color: #f57c00; // Màu cam
+//       border: none;
+//       border-radius: 0 8px 8px 0; // Bo góc
+//       cursor: pointer;
+
+//       &:hover {
+//         background-color: #e67000;
+//       }
+//     }
+//   }
+// }
+.tracking-container {
+  /* THÊM DÒNG DƯỚI ĐÂY:
+    Đẩy toàn bộ container xuống 80px (hoặc bất kỳ chiều cao nào
+    chính xác của Header) để tránh bị che.
+  */
+  margin-top: 80px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
+  background-color: #fcfcfc; // Màu nền
+  min-height: 400px;
+
+  .tracking-content {
+    display: flex;
+    align-items: center;
+    max-width: 900px;
+    width: 100%;
+  }
+
+  .tracking-icon {
+    flex: 1;
+    img {
+      width: 100%;
+      max-width: 250px; // Chỉnh kích thước icon
+      height: auto;
+    }
+  }
+
+  .tracking-form {
+    flex: 2;
+    /* Vì bạn đã bỏ icon trong file jsx, 
+      nên xóa margin-left để form tự động căn giữa.
+    */
+    margin-left: 0px; // Đã sửa từ 40px
+
+    h2 {
+      font-size: 2.5rem;
+      color: #333;
+      margin-bottom: 20px;
+      /* Căn giữa chữ */
+      text-align: center;
+    }
+  }
+
+  .tracking-input {
+    display: flex;
+
+    input {
+      flex: 1;
+      padding: 15px 20px;
+      font-size: 1rem;
+      border: 1px solid #ddd;
+      border-radius: 8px 0 0 8px; // Bo góc
+      outline: none;
+    }
+
+    button {
+      padding: 15px 30px;
+      font-size: 1rem;
+      font-weight: bold;
+      color: white;
+      background-color: #f57c00; // Màu cam
+      border: none;
+      border-radius: 0 8px 8px 0; // Bo góc
+      cursor: pointer;
+
+      &:hover {
+        background-color: #e67000;
+      }
+    }
+  }
+}
